@@ -1,7 +1,5 @@
 import React from 'react';
 import "./navbar.css";
-import logo_light from "../../assets/logo-black.png";
-import logo_dark from "../../assets/logo-white.png";
 import search_light from "../../assets/search-w.png";
 import search_dark from "../../assets/search-b.png";
 import toggle_light from "../../assets/night.png";
