@@ -1,0 +1,95 @@
+.dashboard {
+    display: flex;
+    width: 800px;
+    border-radius: 25px;
+    background-color: rgb(6, 189, 245);
+    border-right: 5px solid rgba(3, 94, 122, 0.959);
+    /* Color for right side */
+    border-bottom: 5px solid rgba(3, 94, 122, 0.959);
+    /* Color for bottom side */
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.left h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right form label {
+    padding: 10px 8px;
+}
+
+.right form input {
+    padding: 5px 10px;
+    height: 30px;
+    width: 10rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.left form input {
+    padding: 5px 10px;
+    height: 30px;
+    width: 10rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.submit-btn {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    border: green;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.add-btn {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(7, 29, 193);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: rgb(7, 29, 193);
+    cursor: pointer;
+}
