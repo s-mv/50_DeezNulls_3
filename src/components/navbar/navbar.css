@@ -6,6 +6,7 @@
     background-color: white;
     padding: 15px 7%;
     transition: 0.5s;
+    border-bottom: black;
 }
 
 .dark .navbar {
@@ -112,5 +113,6 @@ ul li button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: calc(100vh - 100px); /* Adjust height based on your navbar height */
 }
