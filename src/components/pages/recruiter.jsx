@@ -32,10 +32,9 @@ function Recruiter() {
             <div className='left'>
                 <h2>Submit applied resumes</h2>
                 <form>
-                    <label htmlFor="resumeUpload">Upload Resume</label>
+                    <label>Upload Resume</label>
                     <input
                         type="file"
-                        id="resumeUpload"
                         multiple
                         onChange={handleResumeUpload}
                         className='resume-input'
