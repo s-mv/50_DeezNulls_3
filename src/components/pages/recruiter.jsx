@@ -28,13 +28,15 @@ function Recruiter() {
     }
 
     return (
+        <>
         <div className='dashboard'>
             <div className='left'>
                 <h2>Submit applied resumes</h2>
                 <form>
-                    <label>Upload Resume</label>
+                    <label for="file-upload">Upload Resume</label>
                     <input
                         type="file"
+                        id="file-upload"
                         multiple
                         onChange={handleResumeUpload}
                         className='resume-input'
@@ -66,10 +68,11 @@ function Recruiter() {
                         </div>
                     ))}
                     <button type="button" onClick={handleAddKeyword} className="add-btn">+ Add</button>
-                    {/* <button className='submit-btn' type="submit">Submit</button> */}
                 </form>
             </div>
         </div>
+        <button className='submit-btn' type="submit">Submit</button>
+        </>
     );
 }
 

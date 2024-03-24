@@ -62,7 +62,8 @@
     cursor: pointer;
 }
 
-.left form input {
+.resume-input {
+    display: inline-block;
     padding: 5px 10px;
     height: 30px;
     width: 10rem;
@@ -77,7 +78,7 @@
 }
 
 .submit-btn {
-    height: 30px;
+    height: 40px;
     width: 80px;
     text-align: center;
     border-radius: 8px;
@@ -86,6 +87,7 @@
     border: green;
     margin-left: 10px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .add-btn {
